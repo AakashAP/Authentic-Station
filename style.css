@@ -1,0 +1,30 @@
+body {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+
+.case {
+    border-style:solid;
+	border-width:1px;
+	margin:5px;
+	padding:2px;
+}
+
+.img-single {
+	width:250px;
+	height:250px;
+	overflow:hidden;
+}
+
+.img-horizontal {
+	width:505px;
+	height:250px;
+	overflow:hidden;
+}
+
+.gradient-img {
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
