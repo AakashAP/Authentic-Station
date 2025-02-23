@@ -1,0 +1,22 @@
+body {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+
+	background-color: #EDE8F5;
+}
+
+.BaseColor {
+	background-color: #CBDCFF;
+}
+
+.ActiveButton {
+	background-color: #3D52A0;
+	color: #FFFFFF;
+}
+
+.DeactiveButton {
+	background-color: #7091E6;
+}

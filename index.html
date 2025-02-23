@@ -1,0 +1,80 @@
+<!doctype HTML>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Authentic Station</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- COVER -->
+        <div class="card">
+            <img class="card-img" style="mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 25%, transparent 100%);" src="./resource/Header.jpg">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <strong style="font-size: 50px;">THE AUTHENTIC STATION</strong>
+                <div class="row">
+                    <strong class="col" style="font-size: 20px;">OPEN FROM X TO Y</strong>
+                    <div class="col">
+                        <a><button class="btn rounded-pill mx-2 ActiveButton" style="width: 150px;"><strong>HOME</strong></button></a>
+                        <a href="./page/menu.html"><button class="btn rounded-pill mx-2 DeactiveButton" style="width: 150px;"><strong>MENU</strong></button></a>
+                        <a href="./page/gallery.html"><button class="btn rounded-pill mx-2 DeactiveButton" style="width: 150px;"><strong>PICS</strong></button></a>
+                        <a href="./page/about.html"><button class="btn rounded-pill mx-2 DeactiveButton" style="width: 150px;"><strong>ABOUT</strong></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div>
+            <div class="row m-1">
+                <div class="col card m-2 BaseColor">
+                    <div class="py-3"></div>
+                    <strong class="text-center" style="font-size: 36px;">WELCOME TO <br> AUTHENTIC STATION</strong>
+                    <div class="mx-auto mb-auto text-center"><br>
+                        <p style="font-size: 24px;">OUR RESTAURANT SPECIALISES IN</p>
+                        <p>In Many Types of Food from Different Culture Including</p>
+                        <p class="mx-4">North Indian | South Indian <br> Fastfood | Drinks | Desserts</p>
+                        <p>Clean Environment For All Our Customers<br>
+                        Spacious Areas and Entertainment Facilities For All</p>
+                    </div><hr class="my-2">
+                    <button class="btn mb-2 p-1 DeactiveButton" onclick="window.location.href='./page/about.html'"><strong>FEEDBACK</strong></button>
+                </div>
+
+                <div class="col card m-2 BaseColor">
+                    <div class="row m-2">
+                        <div class="col text-center">
+                            <strong style="font-size: 32px;"><br>DISH OF THE DAY</strong><br><br>
+                            <strong style="font-size: 24px;">Strawberry Shortcake</strong>
+                        </div>
+                        <img class="m-2 p-0" style="border: 2px solid black;" src="./resource/Today.jpg" height="240" width="240">
+                    </div>
+                    <div class="text-center m-2">
+                        <div class="row card mb-1 DeactiveButton">
+                            <p class="m-0 mt-1" style="font-size: 20px;"><strong>FAMILY BOMB*</strong></p>
+                            <p class="m-0 mb-1">BUY 1 GET 1 - OFFERS on ALL ITEMS</p>
+                        </div>
+                        <div class="row">
+                            <div class="col card DeactiveButton">
+                                <p class="m-0 mt-1" style="font-size: 20px;"><strong>TASTY TUESDAY</strong></p>
+                                <p class="m-0 mb-1">20% OFF on Burgers</p>
+                            </div>
+                            <div class="col card mx-1 DeactiveButton">
+                                <p class="m-0 mt-1" style="font-size: 20px;"><strong>FRIED FRIDAY</strong></p>
+                                <p class="m-0 mb-1">20% OFF on Fries</p>
+                            </div>
+                            <div class="col card DeactiveButton">
+                                <p class="m-0 mt-1" style="font-size: 20px;"><strong>SWEET SUNDAY</strong></p>
+                                <p class="m-0 mb-1">20% OFF on Sweets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="text-center" style="font-size: 14px;">*OFFERS For <u><b>Limited Time Period</b></u> | <b>ORDER</b> At +91 8800225020</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
