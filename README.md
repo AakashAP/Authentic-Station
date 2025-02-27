@@ -9,7 +9,7 @@ This is a **Introductory Web Project** for Practicing Web Development Concepts a
 ## FEATURES
 
 **HOME** <br>
-The Introductory Page, Features Captivating Offers with Flexible Layouts and Cards to Engage Visitors Right from the Start
+Features Captivating Offers with Flexible Layouts and Cards to Engage Visitors Right from the Start
 
 **MENU** <br>
 Display's your Restaurant's Menu in a Stylish and Organized Way
@@ -25,8 +25,8 @@ Provide Easy Access to your Restaurant's Contact Information and an Intuitive Co
 ## GETTING STARTED
 
 **Clone the Repository** <br>
-  Clone the Repository to your Local Machine Using the Following Command
-  ```
+  Clone the Repository to your Local Machine
+  ```bash
   git clone https://github.com/yourusername/authentic-station.git
   ```
 
